@@ -31,13 +31,6 @@
 dart pub global activate json_extension_type
 ```
 
-### From path (development)
-
-```bash
-cd path/to/json_extension_type
-dart pub global activate --source path .
-```
-
 ## Usage
 
 ### Basic Command
