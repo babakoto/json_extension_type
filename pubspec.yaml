@@ -1,0 +1,19 @@
+name: json_extension_type
+description: JSON Extension Type Generator - Automatically generates extension types for JSON to Dart typedef records and classes conversion.
+version: 1.1.1
+repository: https://github.com/babakoto/json_extension_type
+homepage: https://github.com/babakoto/json_extension_type
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  args: ^2.7.0
+  path: ^1.9.1
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
+
+executables:
+  jet: jet
