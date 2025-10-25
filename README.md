@@ -5,7 +5,7 @@ A Dart CLI tool that automatically generates extension types for JSON to Dart ty
 ## Features
 
 - ✅ **Typedef records**: Support for Dart typedef records
-- ✅ **Classes**: Support for Dart classes with constructors
+- 🧪 **Classes**: Support for Dart classes with constructors (⚠️ Experimental)
 - ✅ **Primitive types**: String, int, double, bool
 - ✅ **Nullable types**: Support for nullable fields (?)
 - ✅ **Lists**: List<T> with type-safe casting
@@ -77,7 +77,7 @@ typedef User = ({
   List<String> tags,
 });
 
-// Option 2: Using classes
+// Option 2: Using classes (⚠️ Experimental - May change in future releases)
 class Person {
   final String id;
   final String name;
