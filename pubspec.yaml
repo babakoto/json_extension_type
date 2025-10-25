@@ -5,7 +5,7 @@ repository: https://github.com/babakoto/json_extension_type
 homepage: https://github.com/babakoto/json_extension_type
 documentation: https://github.com/babakoto/json_extension_type#readme
 screenshots:
-  - description: 'JET Logo'
+  - description: 'JSON Extension Type Generator Logo - Dart and JSON combined'
     path: assets/logo.svg
 
 environment:
