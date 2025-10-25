@@ -9,7 +9,6 @@
 /// - Enums
 /// - Custom types (nested records)
 /// - Custom annotations (#key, #default)
-library json_extension_type;
 
 export 'generator.dart';
 export 'models.dart';

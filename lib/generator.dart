@@ -1,7 +1,6 @@
 // ignore_for_file: avoid_print
 
 import 'dart:io';
-import 'package:json_extension_type/models.dart';
 import 'package:json_extension_type/parser.dart';
 import 'package:json_extension_type/code_generator.dart';
 
