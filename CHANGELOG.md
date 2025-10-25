@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2025-10-25
+
+### Added
+- **Complete Examples**: Added 4 runnable Dart examples in `/example` directory
+  - `basic_example.dart` - Simple typedef records and basic conversions
+  - `nested_types_example.dart` - Complex nested structures
+  - `custom_annotations_example.dart` - Using #key and #default annotations
+  - `api_simulation_example.dart` - Real-world API integration patterns
+- **Package Logo**: Added professional SVG logo for branding
+  - Full size logo (`assets/logo.svg`)
+  - Small logo variant (`assets/logo_small.svg`)
+- **Enhanced README**: 
+  - Added logo and badges
+  - Improved visual presentation
+  - Added examples section with direct links
+  - Better documentation structure
+- **Example Documentation**: Added comprehensive `example/README.md` with learning path
+
+### Changed
+- **Class Support Note**: Marked class support as experimental (🧪) in documentation
+- **pubspec.yaml**: Added documentation link and screenshots configuration
+
 ## [1.1.1] - 2025-10-25
 
 ### Fixed

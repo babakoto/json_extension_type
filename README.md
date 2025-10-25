@@ -1,6 +1,16 @@
-# JSON Extension Type (JET)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/babakoto/json_extension_type/main/assets/logo.svg" alt="JET Logo" width="200"/>
+  
+  # JSON Extension Type (JET)
+  
+  **A Dart CLI tool that automatically generates extension types for JSON to Dart typedef records and classes conversion.**
+  
+  [![pub package](https://img.shields.io/pub/v/json_extension_type.svg)](https://pub.dev/packages/json_extension_type)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg)](https://dart.dev)
+</div>
 
-A Dart CLI tool that automatically generates extension types for JSON to Dart typedef records and classes conversion.
+---
 
 ## Features
 
@@ -324,11 +334,24 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 MIT License - see LICENSE file for details
 
+## Examples
+
+The `/example` directory contains complete, runnable examples:
+
+- **`basic_example.dart`** - Simple typedef records and basic conversions
+- **`nested_types_example.dart`** - Complex nested structures (products, categories, reviews)
+- **`custom_annotations_example.dart`** - Using `#key` and `#default` annotations
+- **`api_simulation_example.dart`** - Real-world API integration patterns
+
+Run any example:
+```bash
+dart run example/basic_example.dart
+```
+
+See [example/README.md](example/README.md) for detailed documentation.
+
 ## Links
 
-- Repository: https://github.com/your-repo/json_extension_type
-- Issues: https://github.com/your-repo/json_extension_type/issues
-
-## Example Project
-
-See the `/example` directory for complete usage examples.
+- 📦 Package: https://pub.dev/packages/json_extension_type
+- 💻 Repository: https://github.com/babakoto/json_extension_type
+- 🐛 Issues: https://github.com/babakoto/json_extension_type/issues

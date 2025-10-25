@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#FFFFFF" rx="20"/>
+  
+  <!-- JSON Left Brace { in Dart Blue -->
+  <g>
+    <path d="M 40 60 Q 30 60 30 70 L 30 85 Q 30 92 23 95 Q 30 98 30 105 L 30 120 Q 30 130 40 130" 
+          stroke="#0175C2" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Dart Logo Style Bird/Arrow in center -->
+  <g transform="translate(70, 65)">
+    <!-- Main body - Dart style shape -->
+    <path d="M 0 30 L 30 0 L 60 0 L 60 30 L 30 60 Z" fill="#0175C2"/>
+    <!-- Right fold -->
+    <path d="M 60 0 L 60 30 L 30 30 L 60 0 Z" fill="#01579B" opacity="0.8"/>
+    <!-- Bottom fold -->
+    <path d="M 30 60 L 60 30 L 30 30 L 30 60 Z" fill="#40C4FF" opacity="0.6"/>
+    <!-- Highlight circle -->
+    <circle cx="20" cy="40" r="8" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+  
+  <!-- JSON Right Brace } in Dart Blue -->
+  <g>
+    <path d="M 160 60 Q 170 60 170 70 L 170 85 Q 170 92 177 95 Q 170 98 170 105 L 170 120 Q 170 130 160 130" 
+          stroke="#0175C2" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- JSON text below -->
+  <text x="30" y="160" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#555555">{"JSON":</text>
+  <text x="120" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0175C2">"Dart"}</text>
+  
+  <!-- JET text -->
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="#0175C2">JET</text>
+</svg>
+
